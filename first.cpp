@@ -22,6 +22,8 @@ int main(){
     int IntLetter = letter;
     cout<< "The ASCII value of " << letter << " is " << IntLetter << endl;
 
-    
+    double num = 100.9999;
+    int newNum = (int)num;
+    cout<< "The integer value of " << num << " is " << newNum <<endl;
     return 0;
 }
