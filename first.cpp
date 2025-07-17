@@ -3,19 +3,25 @@ using namespace std;
 
 int main(){
 
-    int age = 25;
-    cout<< "Hello World!" << " I am Shubham"<<endl << "My age is " << age <<endl;
+    // int age = 25;
+    // cout<< "Hello World!" << " I am Shubham"<<endl << "My age is " << age <<endl;
 
-    cout<< sizeof(int) << " bytes" << endl;
+    // cout<< sizeof(int) << " bytes" << endl;
 
-    char grade = 'A';
-    cout<< "My grade is " << grade <<endl;
+    // char grade = 'A';
+    // cout<< "My grade is " << grade <<endl;
 
-    float gpa = 8.75f;
-    cout<< "My GPA is " << gpa <<endl;
-    
-    bool isStudent = true;
-    double price = 100.99; 
+    // float gpa = 8.75f;
+    // cout<< "My GPA is " << gpa <<endl;
+
+    // bool isStudent = true;
+    // double price = 100.99; 
+
+
+    char letter = 'S';
+    int IntLetter = letter;
+    cout<< "The ASCII value of " << letter << " is " << IntLetter << endl;
+
     
     return 0;
 }
