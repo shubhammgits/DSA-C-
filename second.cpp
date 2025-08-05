@@ -24,6 +24,7 @@ int main(){
     }
     else{
         cout<<"It is ODD!";
-    };
+    }
+    
     return 0;
 }
