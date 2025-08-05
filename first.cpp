@@ -23,23 +23,25 @@ int main(){
 
 
 
-
+ 
 
     //TYPE CONVERSION
     // Implicit Type Conversion
-    char letter = 'S';
-    int IntLetter = letter;
-    cout<< "The ASCII value of " << letter << " is " << IntLetter << endl;
+    // char letter = 'S';
+    // int IntLetter = letter;
+    // cout<< "The ASCII value of " << letter << " is " << IntLetter << endl;
 
     // Explicit Type Conversion
-    double num = 100.9999;
-    int newNum = (int)num;
-    cout<< "The integer value of " << num << " is " << newNum <<endl;
+    // double num = 100.9999;
+    // int newNum = (int)num;
+    // cout<< "The integer value of " << num << " is " << newNum <<endl;
 
 
 
 
     //INPUT in C++
+    int age;
+    cout << age <<endl;
 
     return 0;
 }
