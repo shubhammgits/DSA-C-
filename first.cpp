@@ -58,5 +58,13 @@ int main(){
     cout << "Division = "<< (a/b) <<endl;
     cout << "Modulo = "<< (a%b) <<endl;
 
+
+    int m = 5;
+    float n = 2;
+
+    cout << "Division :" << (m/n) <<endl;
+
+    cout<< (5 / (double) 2)<<endl;
+
     return 0;
 }
