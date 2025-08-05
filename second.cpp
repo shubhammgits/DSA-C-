@@ -76,9 +76,16 @@ int main(){
 
     //for loop:
 
-    int n=100;
-    for(int i=0 ; i<=n ; i = i+2){
-        cout<<i << "  ";
+    // int n=100;
+    // for(int i=0 ; i<=n ; i = i+2){
+    //     cout<<i << "  ";
+    // }
+
+    for(int i=1 ; i<=100 ; i++){
+        cout<<i<<"  ";
+        if(i == 5){
+            break;
+        }
     }
 
 }
