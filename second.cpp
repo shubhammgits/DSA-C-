@@ -64,9 +64,11 @@ int main(){
 
     // while loop:
 
-    int count = 1;
-    while(count <= 100){
-        cout<<count <<endl;
+    int count =1;
+    int n = 100;
+
+    while(count <= n){
+        cout<<count <<"  ";
         count++;
     }
 
