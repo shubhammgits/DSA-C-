@@ -20,4 +20,6 @@ int main(){
     else{
         cout<<"Not alphabetical character";
     }
+
+    return 0;
 }
