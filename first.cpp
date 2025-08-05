@@ -50,7 +50,7 @@ int main(){
 
     //Operators in C++
 
-    int a=5, b=10;
+    int a=15, b=10;
     
     cout << "Sum = "<< (a+b) <<endl;
     cout << "Difference = "<< (a-b) <<endl;
