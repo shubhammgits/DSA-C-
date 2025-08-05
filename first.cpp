@@ -81,10 +81,28 @@ int main(){
 
     // Logical:
 
-    cout<< !(3>5) <<endl;     //Logical NOT
+    // cout<< !(3>5) <<endl;     //Logical NOT
 
-    cout<< ( (3>5) && (5>7) )<<endl;    //Logical AND
+    // cout<< ( (3>5) && (5>7) )<<endl;    //Logical AND
 
-    cout<< ( (3>5) || (5>7) )<<endl;    //Logical OR
-    return 0;
+    // cout<< ( (3>5) || (5>7) )<<endl;    //Logical OR
+    // return 0;
+
+
+    // Unary Operator:
+
+    int a = 10;
+
+    int b = a++;    // kaam ; update
+
+    cout<<" b = "<< b << endl;       //10
+    cout<<" a = "<< a << endl;       //11
+    cout<<"b = " << b <<endl;        //10
+
+
+    int c = 10;
+    int d = ++c;
+
+    cout<<"c = " << c <<endl;       //
+    cout<<"d = " << d <<endl;       //
 }
