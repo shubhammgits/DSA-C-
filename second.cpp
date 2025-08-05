@@ -59,4 +59,15 @@ int main(){
     // cout<< (n>=0 ? "positive" : "negative");
 
 
+
+    // LOOPS:
+
+    // while loop:
+
+    int count = 1;
+    while(count <= 100){
+        cout<<count <<endl;
+        count++;
+    }
+
 }
