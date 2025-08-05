@@ -2,18 +2,17 @@
 using namespace std;
 
 int main(){
-    int n;
-    cout<< "Enter any number : "<<endl;
-    cin>>n;
+    int age;
+    cout<< "Enter your age : "<<endl;
+    cin>>age;
 
-    if(n >= 0){
-        cout<< n<<" is positive\n";
+    if(age >= 18){
+        cout<<"You can vote!\n";
     }
 
     else{
-        cout<< n<<" is negative\n";
+        cout<<"You cannot vote!\n";
     }
-
 
     return 0;
 }
