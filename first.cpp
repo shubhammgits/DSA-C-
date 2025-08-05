@@ -50,21 +50,41 @@ int main(){
 
     //Operators in C++
 
-    int a=15, b=10;
+    //Arithmatic:
+
+    // int a=15, b=10;
     
-    cout << "Sum = "<< (a+b) <<endl;
-    cout << "Difference = "<< (a-b) <<endl;
-    cout << "Product = "<< (a*b) <<endl;
-    cout << "Division = "<< (a/b) <<endl;
-    cout << "Modulo = "<< (a%b) <<endl;
+    // cout << "Sum = "<< (a+b) <<endl;
+    // cout << "Difference = "<< (a-b) <<endl;
+    // cout << "Product = "<< (a*b) <<endl;
+    // cout << "Division = "<< (a/b) <<endl;
+    // cout << "Modulo = "<< (a%b) <<endl;
 
 
-    int m = 5;
-    float n = 2;
+    // int m = 5;
+    // float n = 2;
 
-    cout << "Division :" << (m/n) <<endl;
+    // cout << "Division :" << (m/n) <<endl;
 
-    cout<< (5 / (double) 2)<<endl;
+    // cout<< (5 / (double) 2)<<endl;
 
+
+
+    // Relational:
+
+    // cout<< (3>5) <<endl;    //false
+    // cout<< (3<5) <<endl;    //true
+    // cout<< (3==5) <<endl;   //false
+    // cout<< (3!=5) <<endl;   //true
+
+
+
+    // Logical:
+
+    cout<< !(3>5) <<endl;     //Logical NOT
+
+    cout<< ( (3>5) && (5>7) )<<endl;    //Logical AND
+
+    cout<< ( (3>5) || (5>7) )<<endl;    //Logical OR
     return 0;
 }
