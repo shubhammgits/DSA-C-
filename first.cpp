@@ -40,8 +40,23 @@ int main(){
 
 
     //INPUT in C++
-    int age;
-    cout << age <<endl;
+
+    // int age;
+    // cout<< "Enter the age :";
+    // cin >> age;
+    // cout << "Your age is : " << age <<endl;
+
+
+
+    //Operators in C++
+
+    int a=5, b=10;
+    
+    cout << "Sum = "<< (a+b) <<endl;
+    cout << "Difference = "<< (a-b) <<endl;
+    cout << "Product = "<< (a*b) <<endl;
+    cout << "Division = "<< (a/b) <<endl;
+    cout << "Modulo = "<< (a%b) <<endl;
 
     return 0;
 }
