@@ -64,12 +64,21 @@ int main(){
 
     // while loop:
 
-    int count =1;
-    int n = 100;
+    // int count =1;
+    // int n = 100;
 
-    while(count <= n){
-        cout<<count <<"  ";
-        count++;
+    // while(count <= n){
+    //     cout<<count <<"  ";
+    //     count++;
+    // }
+
+
+
+    //for loop:
+
+    int n=100;
+    for(int i=0 ; i<=n ; i = i+2){
+        cout<<i << "  ";
     }
 
 }
