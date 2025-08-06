@@ -17,8 +17,6 @@ int main(){
 
 
 
-
-
     // vector<char> vec = {'a','b','c','d','e'};
     // cout<<"Size of the vector :"<<vec.size()<<endl;
     // for(char val : vec){
