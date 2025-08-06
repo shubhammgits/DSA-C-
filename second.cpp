@@ -81,11 +81,20 @@ int main(){
     //     cout<<i << "  ";
     // }
 
-    for(int i=1 ; i<=100 ; i++){
-        cout<<i<<"  ";
-        if(i == 5){
-            break;
-        }
+    // for(int i=1 ; i<=100 ; i++){
+    //     cout<<i<<"  ";
+    //     if(i == 5){
+    //         break;
+    //     }
+    // }
+
+
+
+    //do-while loop:
+
+    do{
+        cout<<"Hello World!";
     }
+    while(3>5);
 
 }
