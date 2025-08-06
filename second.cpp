@@ -92,9 +92,18 @@ int main(){
 
     //do-while loop:
 
+    // do{
+    //     cout<<"Hello World!";
+    // }
+    // while(3>5);
+
+
+    int n=10;
+    int i=1;
     do{
-        cout<<"Hello World!";
+        cout<<i<<"  ";
+        i++;
     }
-    while(3>5);
+    while(i<=n);
 
 }
