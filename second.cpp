@@ -98,12 +98,18 @@ int main(){
     // while(3>5);
 
 
-    int n=10;
-    int i=1;
-    do{
-        cout<<i<<"  ";
-        i++;
-    }
-    while(i<=n);
+    // int n=10;
+    // int i=1;
+    // do{
+    //     cout<<i<<"  ";
+    //     i++;
+    // }
+    // while(i<=n);
+
+
+
+
+    //Nested Loops:
+    
 
 }
