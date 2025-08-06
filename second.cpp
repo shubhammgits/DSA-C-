@@ -111,7 +111,8 @@ int main(){
 
     //Nested Loops:
 
-    for(int i=1 ; i<=5 ; i++){
+    int n=4;
+    for(int i=1 ; i<=n ; i++){
         int m=10;
         for(int j=1 ; j<=10 ; j++){
             cout<<"*"<<" ";
