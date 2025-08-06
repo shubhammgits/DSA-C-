@@ -111,10 +111,10 @@ int main(){
 
     //Nested Loops:
 
-    int n=4;
+    int n=10;
     for(int i=1 ; i<=n ; i++){
-        int m=10;
-        for(int j=1 ; j<=10 ; j++){
+        int m=5;
+        for(int j=1 ; j<=m ; j++){
             cout<<"*"<<" ";
         }
         cout<<endl;
