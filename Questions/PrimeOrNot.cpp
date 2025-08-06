@@ -22,4 +22,6 @@ int main(){
         cout<<num<<" is not a prime number!";
     }
     return 0;
+
+    
 }
