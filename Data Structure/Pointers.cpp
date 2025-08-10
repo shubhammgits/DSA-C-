@@ -140,8 +140,6 @@ int main(){
     // cout<<*(arr+3)<<endl;
 
 
-
-
  
     // Subtraction between two pointers:
     // int* ptr1;
