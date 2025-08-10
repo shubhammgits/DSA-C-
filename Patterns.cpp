@@ -14,14 +14,15 @@ int main()
           1 2 3 4 
     */       
     
-    for (int i = 1; i <= 4; i++)
-    {
-        for (int j = 1; j <= 4; j++)
-        {
-            cout << j << " ";
-        }
-        cout << endl;
-    }
+
+    // for (int i = 1; i <= 4; i++)
+    // {
+    //     for (int j = 1; j <= 4; j++)
+    //     {
+    //         cout << j << " ";
+    //     }
+    //     cout << endl;
+    // }
 
 
 
@@ -36,14 +37,14 @@ int main()
     */
 
 
-    for(int i=0; i<4 ; i++){
-        char ch='A';
-        for(int j=0; j<4; j++){
-            cout<<ch<<" ";
-            ch = ch + 1;
-        }
-        cout<<endl;
-    }
+    // for(int i=0; i<4 ; i++){
+    //     char ch='A';
+    //     for(int j=0; j<4; j++){
+    //         cout<<ch<<" ";
+    //         ch = ch + 1;
+    //     }
+    //     cout<<endl;
+    // }
 
 
 
@@ -58,14 +59,24 @@ int main()
        7 8 9
     */
 
-    int num=1;
-    for(int i=0; i<3; i++){
-        for(int j=0; j<3; j++){
-            cout<<num<<" ";
-            num++;
-        }
-        cout<<endl;
-    }
+    // int num=1;
+    // for(int i=0; i<3; i++){
+    //     for(int j=0; j<3; j++){
+    //         cout<<num<<" ";
+    //         num++;
+    //     }
+    //     cout<<endl;
+    // }
+
+
+
+
+
+
+
+
+
+    
 
 
     return 0;
