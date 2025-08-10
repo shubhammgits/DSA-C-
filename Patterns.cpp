@@ -172,6 +172,31 @@ int main()
 
 
 
+    /*
+       1
+       1 2
+       1 2 3
+       1 2 3 4
+    */
+
+
+    
+    for(int i=0; i<4; i++){
+        int num=1;
+        for(int j=0; j<i+1; j++){
+            cout<<num<<" ";
+            num++;
+        }
+        cout<<endl;
+    }
+
+
+
+
+
+
+
+
 
 
 
