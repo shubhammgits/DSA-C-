@@ -65,7 +65,6 @@ int main()
             num++;
         }
         cout<<endl;
-        num++;
     }
 
 
