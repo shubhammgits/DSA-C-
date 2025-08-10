@@ -1,5 +1,7 @@
 {
     "files.associations": {
         "iostream": "cpp"
-    }
+    },
+    "editor.overtypeCursorStyle": "line",
+    "terminal.integrated.cursorStyle": "line"
 }
