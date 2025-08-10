@@ -149,6 +149,28 @@ int main()
 
 
 
+    /*
+      A 
+      B B
+      C C C
+      D D D D
+    */
+
+    char ch='A';
+    for(int i=0; i<4; i++){
+        for(int j=0; j<i+1; j++){
+            cout<<ch<<" ";
+        }
+        ch++;
+        cout<<endl;
+    }
+
+
+
+
+
+
+
 
 
 
