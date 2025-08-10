@@ -76,7 +76,33 @@ int main()
 
 
 
-    
+
+
+    /*
+       A B C D
+       E F G H
+       I J K L
+     */
+
+
+    // char ch='A';
+    // for(int i=0; i<3; i++){
+    //     for(int j=0; j<4; j++){
+    //         cout<<ch<<"  ";
+    //         ch++;
+    //     }
+    //     cout<<endl;
+    // }
+
+
+
+
+
+
+
+
+
+
 
 
     return 0;
