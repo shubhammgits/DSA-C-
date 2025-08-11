@@ -2,8 +2,9 @@
 using namespace std;
 
 
-void printHello(){
-    cout<<"hello/n";
+int printHello(){
+    cout<<"hello\n";
+    return 3;
 }
 
 int main(){
@@ -11,6 +12,9 @@ int main(){
     printHello();
     printHello();
     printHello();
+
+    int val = printHello();
+    cout<<val;
     
     return 0;
 }
