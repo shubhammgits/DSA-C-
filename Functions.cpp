@@ -20,12 +20,7 @@ using namespace std;
 
 
 
-int minOfTwo(int a, int b){
-    cout<<"Enter the first number :";
-    cin>>a;
-
-    cout<<"Enter the second number :";
-    cin>>b;
+void minOfTwo(int a, int b){
 
     if(a>b){
         cout<<"Minimum of "<<a<<" and "<<b<<" is :"<<b;
@@ -33,6 +28,9 @@ int minOfTwo(int a, int b){
     else{
         cout<<"Minimum of "<<a<<" and "<<b<<" is :"<<a;
     }
+
+    cout<<endl;
+    
 }
 
 
@@ -61,7 +59,8 @@ int main(){
 
 
 
-    cout<<minOfTwo(5,10);
+    minOfTwo(10,6);
+    minOfTwo(100,600);
 
 
     return 0;
