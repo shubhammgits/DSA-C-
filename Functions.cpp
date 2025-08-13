@@ -41,6 +41,8 @@ void minOfTwo(int a, int b){
 
 
 
+
+
 void fun(){
     int x = 25;
     cout<<"x = "<<x<<endl;
@@ -83,7 +85,7 @@ int main(){
     // cout<<x<<endl;         It will return error because x isdefined within the fun() function!
 
 
-    
+
 
 
 
