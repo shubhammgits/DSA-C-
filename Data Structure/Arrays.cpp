@@ -15,9 +15,6 @@ void changeArr(int arr[], int size){
 
 
 
-
-
-
 //Linear Search:
 
 int linearSearch(int arr[], int size, int target){
