@@ -37,6 +37,18 @@ void minOfTwo(int a, int b){
 
 
 
+
+
+
+
+void fun(){
+    int x = 25;
+    cout<<"x = "<<x<<endl;
+}
+
+
+
+
 int main(){
 
     // printHello();
@@ -59,8 +71,16 @@ int main(){
 
 
 
-    minOfTwo(10,6);
-    minOfTwo(100,600);
+    // minOfTwo(10,6);
+    // minOfTwo(100,600);
+
+
+
+
+
+
+    fun();
+    cout<<x<<endl;
 
 
     return 0;
