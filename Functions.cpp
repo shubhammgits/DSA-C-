@@ -80,7 +80,12 @@ int main(){
 
 
     fun();
-    cout<<x<<endl;
+    // cout<<x<<endl;         It will return error because x isdefined within the fun() function!
+
+
+    
+
+
 
 
     return 0;
