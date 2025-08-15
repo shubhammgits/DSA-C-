@@ -1,19 +1,28 @@
 #include<iostream>
 using namespace std;
 
-int main(){
-    int decNum = 6;
-    int ans = 0;
-    int pow = 1;
-    while(decNum>0){
 
+
+int decToBinary(int decNum){
+    int ans = 0, pow = 1;
+
+    while(decNum>0){
         int rem = decNum%2;
         decNum = decNum/2;
 
         ans = ans + (rem*pow);
-        pow = pow * 10;
+
+        pow = pow*10;
     }
 
-    cout<<ans;
-    
+    return ans;
+}
+
+int main(){
+
+
+    for(int i=1; i<=10; i++){
+        cout<< decToBinary(i)<<endl;
+    }
+
 }
