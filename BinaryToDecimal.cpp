@@ -4,8 +4,8 @@ using namespace std;
 int binToDec(int binNum){
     int ans = 0, pow = 1;
     while(binNum>0){
-        int rem = binNum%2;
-        binNum= binNum/2;
+        int rem = binNum%10;
+        binNum= binNum/10;
 
         ans += rem*pow;
         pow *= 2;
