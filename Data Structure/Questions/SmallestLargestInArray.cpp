@@ -17,7 +17,6 @@ int main(){
             index = i;
         }
 
-
         // smallest = min(num[i], smallest);
         
     }
