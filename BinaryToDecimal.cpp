@@ -14,6 +14,7 @@ int binToDec(int binNum){
     return ans;
 }
 
+
 int main(){
     int binNum = 1100101;
     cout<< binToDec(binNum)<<endl;
