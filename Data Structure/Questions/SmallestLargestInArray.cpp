@@ -23,6 +23,9 @@ int main(){
     }
     cout<<"Index = "<<index<<endl;
     cout<<smallest;
+
+
+
     
 
 }
