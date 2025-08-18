@@ -17,6 +17,7 @@ int main(){
 
 
         smallest = min(num[i], smallest);
+        
     }
 
     cout<<smallest;
