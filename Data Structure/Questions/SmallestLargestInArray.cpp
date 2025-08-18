@@ -11,9 +11,12 @@ int main(){
     int sz = sizeof(num)/sizeof(int);
     for(int i=0; i<sz; i++){
 
-        if(num[i] >smallest){
-            smallest = num[i];
-        }
+        // if(num[i] < smallest){
+        //     smallest = num[i];
+        // }
+
+
+        smallest = min(num[i], smallest);
     }
 
     cout<<smallest;
