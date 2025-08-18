@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int num[] = {2,4,5,1,2,35,7,9,10,8};
+    int num[] = {2,4,5,2,35,7,9,10,8};
 
     int smallest = num[0];
 
@@ -13,5 +13,7 @@ int main(){
             smallest = num[i];
         }
     }
-    
+
+    cout<<smallest;
+
 }
