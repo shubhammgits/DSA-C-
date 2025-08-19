@@ -1,10 +1,20 @@
 #include<iostream>
 using namespace std;
 
+
+
+
+void changeArr(int arr[], int size){
+    cout<<"In changeArr Function:"<<endl;
+    for(int i=0; i<size; i++){
+        arr[i] = 2 * arr[i];
+    }
+}
+
 int main(){
     // double price[65];
     
-    int marks[5] = {98, 100, 54, 89, 78};
+    // int marks[5] = {98, 100, 54, 89, 78};
 
     // cout<<marks[0]<<endl;
     // cout<<marks[2]<<endl;
@@ -20,17 +30,36 @@ int main(){
 
 
 
-    int price[5];
-    int sz = 5;
+    // int price[5];
+    // int sz = 5;
 
-    for(int i=0; i<sz; i++){
-        cout<<"Enter the element:";
-        cin>>marks[i];
-    }
+    // for(int i=0; i<sz; i++){
+    //     cout<<"Enter the element:";
+    //     cin>>marks[i];
+    // }
 
-    cout<<marks[0]<<endl;
-    cout<<marks[1]<<endl;
-    cout<<marks[2]<<endl;
+    // cout<<marks[0]<<endl;
+    // cout<<marks[1]<<endl;
+    // cout<<marks[2]<<endl;
 
-    return 0;
+    // return 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // Pass By Referance:
+
+    int arr[] = {1,2,3};
+
+    changeArr(arr, 3)
 }
