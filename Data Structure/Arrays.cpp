@@ -60,6 +60,13 @@ int main(){
     // Pass By Referance:
 
     int arr[] = {1,2,3};
+    int size = 3;
 
-    changeArr(arr, 3)
+    changeArr(arr, size);
+
+    cout<<"In main function:"<<endl;
+    for(int i=0; i<size; i++){
+        cout<<arr[i]<<" ";
+    }
+    cout<<endl;
 }
