@@ -111,6 +111,9 @@ int main(){
 
     int arr[] = {4,5,6,8,9,2,4,1,3};
     int size = sizeof(arr)/sizeof(int);
+    int target = 8;
+    
+    cout<<linearSearch(arr, size, target)<<endl;
 
-    linearSearch(arr, size);
+    
 }
