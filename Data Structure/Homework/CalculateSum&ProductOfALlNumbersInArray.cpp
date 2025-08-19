@@ -7,13 +7,15 @@ int sumAndProduct(int arr[], int size){
         sum = sum + arr[i];
         prd = prd * arr[i];
     }
-    cout<<"Sum of all the numbers : "<<sum;
-    cout<<"Product of all the numbers : "<<prd;
+    cout<<"Sum of all the numbers : "<<sum<<endl;
+    cout<<"Product of all the numbers : "<<prd<<endl;
 }
 
 int main(){
-    int arr[] = {4,3,6,7,1,8,4,6,2,};
+    int arr[] = {4,3,6};
     int size = sizeof(arr)/sizeof(int);
 
     sumAndProduct(arr, size);
+
+    
 }
