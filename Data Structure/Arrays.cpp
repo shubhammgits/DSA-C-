@@ -31,6 +31,11 @@ int linearSearch(int arr[], int size, int target){
 
 
 
+
+
+
+
+
 int main(){
     // double price[65];
     
@@ -89,4 +94,23 @@ int main(){
     //     cout<<arr[i]<<" ";
     // }
     // cout<<endl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //Linear Search:
+
+    int arr[] = {4,5,6,8,9,2,4,1,3};
+    int size = sizeof(arr)/sizeof(int);
+
+    linearSearch(arr, size);
 }
