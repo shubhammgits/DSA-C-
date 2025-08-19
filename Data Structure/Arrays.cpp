@@ -11,6 +11,26 @@ void changeArr(int arr[], int size){
     }
 }
 
+
+
+
+
+
+
+
+//Linear Search:
+
+int linearSearch(int arr[], int size, int target){
+    for(int i=0; i<size; i++){
+        if(arr[i] == target){
+            return i;
+        }
+    }
+    return -1;
+}
+
+
+
 int main(){
     // double price[65];
     
@@ -59,14 +79,14 @@ int main(){
 
     // Pass By Referance:
 
-    int arr[] = {1,2,3};
-    int size = 3;
+    // int arr[] = {1,2,3};
+    // int size = 3;
 
-    changeArr(arr, size);
+    // changeArr(arr, size);
 
-    cout<<"In main function:"<<endl;
-    for(int i=0; i<size; i++){
-        cout<<arr[i]<<" ";
-    }
-    cout<<endl;
+    // cout<<"In main function:"<<endl;
+    // for(int i=0; i<size; i++){
+    //     cout<<arr[i]<<" ";
+    // }
+    // cout<<endl;
 }
