@@ -19,7 +19,4 @@ void swapMaxAndMin(int arr[], int size){
     arr[maxIndex] = temp;
 
 
-
-    
-
 }
