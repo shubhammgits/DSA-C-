@@ -1,5 +1,6 @@
 #include <iostream>
 #include <climits>
+#include <vector>
 using namespace std;
 
 
@@ -68,13 +69,38 @@ using namespace std;
 
 // Kadane's Algorithm:
 
-int main(){
-    int arr[] = {3,-4,5,4,-1,8,-8};
-    int n = 7;
-    int currSum = 0;
-    int maxSum = INT_MIN;
-    for(int i=0; i<n; i++){
-        currSum += arr[i];
+// int main(){
+//     int arr[] = {3,-4,5,4,-1,7,-8};
+//     int n = 7;
+//     int currSum = 0;
+//     int maxSum = INT_MIN;
+//     for(int i=0; i<n; i++){
+//         currSum += arr[i];
+//         maxSum = max(currSum, maxSum);
+
+//         if(currSum < 0){
+//             currSum = 0;
+//         }
+//     }
+
+//     cout<<"Max Subarray sum ="<<maxSum;
+
+
+// }
+
+
+
+
+
+
+
+
+//vectors:
+
+int maxSubArray(vector<int> nums){
+    int currSum = 0, maxSum = 0;
+    for(int val: nums){
+        currSum += val;
         maxSum = max(currSum, maxSum);
 
         if(currSum < 0){
@@ -82,5 +108,10 @@ int main(){
         }
     }
 
-    cout<<"Max Subarray sum ="<<maxSum;
+    return maxSum;
+}
+
+int main(){
+    vector<int> vec = {9,-4,5,-3,2,10,-5,8};
+
 }
