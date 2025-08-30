@@ -113,5 +113,5 @@ int maxSubArray(vector<int> nums){
 
 int main(){
     vector<int> vec = {9,-4,5,-3,2,10,-5,8};
-
+    cout<<"Max SubArray sum = "<<maxSubArray(vec);
 }
