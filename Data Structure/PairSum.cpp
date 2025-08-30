@@ -55,3 +55,31 @@ using namespace std;
 
 // Brute Force (optimized):
 
+vector<int> pairSum(vector<int> nums, int target){
+
+    int n=nums.size();
+    vector<int> ans;
+    int i=0, j=n-1;
+    while(i<j){
+        
+        int pairSum = nums[i] + nums[j];
+        if(pairSum < target){
+            i++;
+        }
+
+        else if(pairSum > target){
+            j--;
+        }
+
+        else{
+            ans.push_back(i);
+            ans.push_back(j);
+            return ans;
+        }
+    }
+}
+
+
+int main(){
+    
+}
