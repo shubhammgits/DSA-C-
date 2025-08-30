@@ -23,9 +23,12 @@ vector<int> pairSum(vector<int> nums, int target){
 
 
 
+
+
 int main(){
-    vector<int> vec = {2,7,11,15};
+    vector<int> nums = {2,7,11,15};
     int target =13;
 
-    cout<<
+    vector<int> ans = pairSum(nums, target);
+    cout<<ans[0] <<", "<<ans[1]<<endl;
 }
