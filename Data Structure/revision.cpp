@@ -1,17 +1,17 @@
 #include<iostream>
 using namespace std;
 
-int sum1toN(int n){
-    int sum = 0;
-    for(int i=1; i<n; i++){
-        if(i%2 != 0){
-            sum += n;
+int main(){
+    int num = 7;
+    for(int i=2; i*i<num; i++){
+        if(num%i == 0){
+            cout<<"Its not prime!";
+            break;
+        }
+
+        else{
+            cout<<"Its a prime number!";
+            break;
         }
     }
-    return sum;
-}
-
-int main(){
-    int n = 5;
-    cout<<"Sum ="<<sum1toN(n);
 }
