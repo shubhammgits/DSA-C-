@@ -1,19 +1,16 @@
 #include<iostream>
 using namespace std;
 
+int changeX(int x){
+    x = 2*x;
+    cout<<"Value in fucntion : ";
+    return x;
+}
+
 int main(){
-    int nums[] = {4,6,8,3,1,2,6,8,9};
-    int n = sizeof(nums)/sizeof(int);
+    int x = 10;
+    changeX(x);
 
-    int smallest = nums[0];
-    int index = 0;
-    for(int i=0; i<n; i++){
-        if(nums[i] < smallest){
-            smallest = nums[i];
-            index = i;
-        }
-    }
-    
-
-    cout<<smallest;
+    cout<<"Value in main:";
+    cout<<x;
 }
