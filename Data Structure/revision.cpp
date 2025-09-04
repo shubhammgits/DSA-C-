@@ -1,18 +1,15 @@
 #include<iostream>
 using namespace std;
 
-void sumAndProduct(int arr[], int size){
-    int sum=0, prd=1;
-    for(int i=0; i<size; i++){
-        sum += arr[i];
-        prd *= arr[i];
+int sum1toN(int n){
+    int sum = 0;
+    for(int i=0; i<=n; i++){
+        sum += n;
     }
-    cout<<"Sum ="<<sum<<endl;
-    cout<<"Product ="<<prd<<endl;
-
+    return sum;
 }
 
 int main(){
-    int arr[] = {1,2,3,4,5};
-    sumAndProduct(arr, 5);
+    int n = 10;
+    cout<<"Sum ="<<sum1toN(n);
 }
