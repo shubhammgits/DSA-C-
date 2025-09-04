@@ -1,23 +1,18 @@
 #include<iostream>
 using namespace std;
 
-int changeX(int arr[], int n){
-    for(int i=0; i<n; i++){
-        arr[i] = 2*arr[i];
-    }
-
-    cout<<"Array in changeX()"<<endl;
-    for(int i=0; i<n; i++){
-        cout<<arr[i];
+int linearSrch(int arr[], int target, int sz){
+    for(int i=0; i<sz; i++){
+        if(arr[i]==target){
+            cout<<"Target is at "<<i<<" index";
+        }
     }
 }
 
 int main(){
-    int arr[] = {1,2,3,4,5};
+    int arr[] = {3,2,5,6,4,7,2,8,9};
+    int sz = sizeof(arr)/sizeof(int);
+    int target = 7;
 
-    cout<<changeX(arr, 5)<<endl;
-    cout<<"Array in main():"<<endl;
-    for(int i=0; i<5; i++){
-        cout<<arr[i];
-    }
+    cout<<linearSrch(arr, target, sz);
 }
