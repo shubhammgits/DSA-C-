@@ -4,7 +4,9 @@ using namespace std;
 int sum1toN(int n){
     int sum = 0;
     for(int i=0; i<=n; i++){
-        sum += n;
+        if(n%2 != 0){
+            sum += n;
+        }
     }
     return sum;
 }
