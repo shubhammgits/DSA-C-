@@ -2,18 +2,22 @@
 #include<vector>
 using namespace std;
 
-int main(){
-    int arr[] = {3,-4,5,4,-1,7,-8};
-    int sz = 7;
-
-    int currSum=0, maxSum=0;
+vector<int> pairSum(vector<int> nums, int target){
+    int sz = nums.size();
+    vector<int> ans;
     for(int i=0; i<sz; i++){
-        currSum += arr[i];
-        maxSum = max(currSum, maxSum);
-        if(currSum<0){
-            currSum=0;
+        for(int j=i+1; j<sz; j++){
+            if(nums[i] + nums[j] == target){
+                ans.push_back(nums[i]);
+                ans.push_back(nums[j]);
+            }
         }
     }
+    return ans;
+}
 
-    cout<<maxSum;
+int main(){
+    vector<int> nums = {2,7,11,15};
+    int target = 7;
+    pairSum(nums, target);
 }
