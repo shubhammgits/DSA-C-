@@ -17,4 +17,5 @@ int main(){
     for(int val : nums){
         cout<<val<<" ";
     }
+    
 }
