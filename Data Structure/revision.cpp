@@ -10,3 +10,7 @@ int singleNum(vector<int> nums){
     return ans;
 }
 
+int main(){
+    vector<int> nums = {1,5,2,5,1};
+    cout<<singleNum(nums);
+}
