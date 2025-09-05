@@ -2,26 +2,26 @@
 #include<vector>
 using namespace std;
 
-int pairSum(int arr[], int sz, int target){
+vector<int> pairSum(vector<int> nums, int target){
+    int sz = nums.size();
     int start=0, end=sz-1;
-
+    vector<int> ans;
+    
     while(start<end){
-        int ps = arr[start]+arr[end];
-        if(ps<target){
-            start++;
-        }
-        else if(ps>target){
-            end--;
-        }
-
+        int ps = nums[start] + nums[end];
+        if(ps>target) end--;
+        else if(ps<target) start++;
         else{
-            return ps;
+            ans.push_back(start);
+            ans.push_back(end);
+            return ans;
         }
     }
 }
 
 int main(){
-    int arr[] = {2,7,11,15};
-    int n = 4, target = 13;
-    cout<<pairSum(arr, n, target);
+    vector<int> nums = {2,7,11,15};
+    int target = 13;
+    vector<int> ans = pairSum(nums, target);
+    cout<<ans[0]<<" "<<ans[1];
 }
