@@ -2,15 +2,15 @@
 #include<vector>
 using namespace std;
 
-int singleNum(vector<int> nums){
-    int ans=0;
-    for(int val : nums){
-        ans ^= val;
-    }
-    return ans;
-}
-
 int main(){
-    vector<int> nums = {1,5,2,5,1};
-    cout<<singleNum(nums);
+    vector<int> nums = {1,2,3,4,5,6};
+    int sz = 6;
+    for(int startInd=0; startInd<sz; startInd++){
+        for(int endInd=startInd; endInd<sz; endInd++){
+            for(int val: nums){
+                cout<<val<<" ";
+            }
+            cout<<endl;
+        }
+    }
 }
