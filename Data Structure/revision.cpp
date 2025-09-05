@@ -8,10 +8,11 @@ int main(){
 
     for(int start=0; start<sz; start++){
         for(int end=start; end<sz; end++){
-            for(int i=start; i<end; i++){
-                cout<<arr[i]<<" ";
+            for(int i=start; i<=end; i++){
+                cout<<arr[i];
             }
-            cout<<endl;
+            cout<<" ";
         }
+        cout<<endl;
     }
 }
