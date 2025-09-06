@@ -2,4 +2,6 @@
 #include<vector>
 using namespace std;
 
-int majorityElement()
+int majorityElement(vector<int> nums){
+    
+}
