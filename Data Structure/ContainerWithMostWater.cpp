@@ -8,11 +8,12 @@ int maxWaterCont(vector<int> arr){
     for(int i=0; i<n; i++){
         for(int j=i+1; j<n; j++){
             int width = j-i;
-            int height = max(arr[i], arr[j]);
+            int height = min(arr[i], arr[j]);
+            
 
-            int area = height * width;
+            int currWater = width * height;
 
-            maxWater = max(maxWater, area);
+            maxWater = max(maxWater, currWater);
         }
     }
 
