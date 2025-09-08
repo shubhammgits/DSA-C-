@@ -19,5 +19,11 @@ vector<int> productExceptSelf(vector<int>& nums) {
 }
 
 int main(){
-    
+    vector<int> nums = {1,2,3,4};
+    vector<int> ans = productExceptSelf(nums);
+
+    int n = nums.size();
+    for(int i=0; i<n; i++){
+        cout<<ans[i]<<" ";
+    }
 }
