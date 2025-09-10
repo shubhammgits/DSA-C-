@@ -6,7 +6,7 @@ int main(){
 
     // int* ptr = &a;
 
-    cout<<*(&a)<<endl;
+    // cout<<*(&a)<<endl;
 
     // cout<<&ptr<<endl;
     // int ** ptr2 = &ptr;
@@ -23,4 +23,19 @@ int main(){
     // cout<<ptr3<<endl;
 
     // cout<<&ptr3<<endl;
+
+
+
+
+
+
+    int a = 10;
+    int* ptr = &a;
+
+    int** parPtr = &ptr;
+
+    cout<<*(parPtr)<<endl;
+    cout<<ptr<<endl;
+
+    cout<<**(parPtr)<<endl;
 }
