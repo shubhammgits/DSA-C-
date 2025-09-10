@@ -8,17 +8,18 @@ int main(){
     int* ptr = &a;
     cout<<ptr<<endl;
 
-    cout<<&ptr<<endl;
-
-
-
-
-
-    char ch = 'S';
-    cout<<&ch<<endl;
-
-    char* ptr2 = &ch;
+    int ** ptr2 = &ptr;
     cout<<ptr2<<endl;
 
-    cout<<&ptr2<<endl;
+
+
+
+
+    // char ch = 'S';
+    // cout<<&ch<<endl;
+
+    // char* ptr3 = &ch;
+    // cout<<ptr3<<endl;
+
+    // cout<<&ptr3<<endl;
 }
