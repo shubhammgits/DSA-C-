@@ -96,10 +96,33 @@ int main(){
 
     // Array Pointer:
 
-    int arr[] = {1,2,3,4,5};
-    cout<<arr<<endl;             //pointer
-    cout<<&arr[0]<<endl;
+    // int arr[] = {1,2,3,4,5};
+    // cout<<arr<<endl;             //pointer
+    // cout<<&arr[0]<<endl;
 
-    cout<< *arr <<endl;          //value at arr[0] memmory address
+    // cout<< *arr <<endl;          //value at arr[0] memmory address
+
+
+
+
+
+
+
+
+
+
+
+
+    // Pointer Arithmetic
+
+    int a = 10;
+    int* ptr = &a;
+    cout<<ptr<<endl;
+
+    ptr++;
+    cout<<ptr<<endl;       //increment of 4byte size in memory address
+
+    ptr--;
+    cout<<ptr<<endl;      //decrement to original address
 }
 
