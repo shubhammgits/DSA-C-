@@ -115,18 +115,18 @@ int main(){
 
     // Pointer Arithmetic
 
-    int a = 10;
-    int* ptr = &a;
-    cout<<ptr<<endl;
+    // int a = 10;
+    // int* ptr = &a;
+    // cout<<ptr<<endl;
 
-    ptr++;
-    cout<<ptr<<endl;       //increment of 4byte size in memory address
+    // ptr++;
+    // cout<<ptr<<endl;       //increment of 4byte size in memory address
 
-    ptr--;
-    cout<<ptr<<endl;      //decrement to original address
+    // ptr--;
+    // cout<<ptr<<endl;      //decrement to original address
 
-    ptr += 3;
-    cout<<ptr<<endl;
+    // ptr += 3;
+    // cout<<ptr<<endl;
 
 
 
@@ -154,7 +154,25 @@ int main(){
 
 
     // Comparison between two pointers:
-    
-    
+
+    // int* ptr1;
+    // int* ptr2;
+
+    // cout<<ptr1<<endl;
+    // cout<<ptr2<<endl;
+
+    // cout<< (ptr1 < ptr2)<<endl;
+
+
+
+
+
+    int arr[] = {10,20,30,40};
+    int* ptr = arr;
+
+    cout<<*(ptr+1)<<endl;
+    cout<<*(ptr+3)<<endl;
+    ptr++;
+    cout<<*ptr<<endl;
 }
 
