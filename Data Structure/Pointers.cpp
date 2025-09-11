@@ -2,11 +2,15 @@
 using namespace std;
 
 
-void changeA(int* ptr){       //pass by referance
+void changeA(int* ptr){       //pass by referance using pointers
     *ptr = 20;
 }
 
 
+
+void changeB(int &c){          //pass by referance using alias
+    c = 20;
+}
 
 
 
@@ -74,5 +78,13 @@ int main(){
     int a = 10;
     changeA(&a);
     cout<<a<<endl;
+
+
+
+    // Pass by refrance using alias:
+
+    int b = 10;
+    changeB(b);
+    cout<<b<<endl;
 }
 
