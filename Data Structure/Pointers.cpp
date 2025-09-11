@@ -131,12 +131,30 @@ int main(){
 
 
 
-    int arr[] = {1,2,3,4,5};
+    // int arr[] = {1,2,3,4,5};
 
+
+    // cout<<*arr<<endl;
+    // cout<<*(arr+1)<<endl;
+    // cout<<*(arr+2)<<endl;
+    // cout<<*(arr+3)<<endl;
+
+
+
+
+ 
+    // Subtraction between two pointers:
+    // int* ptr1;
+    // int* ptr2 = ptr1 + 2;
+
+    // cout<<ptr2 - ptr1<<endl;
+
+
+
+
+
+    // Comparison between two pointers:
     
-    cout<<*arr<<endl;
-    cout<<*(arr+1)<<endl;
-    cout<<*(arr+2)<<endl;
-    cout<<*(arr+3)<<endl;
+    
 }
 
