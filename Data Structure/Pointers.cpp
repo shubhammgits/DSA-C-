@@ -73,18 +73,33 @@ int main(){
 
 
 
-    // Pass By Referance using Pointers:
+    // // Pass By Referance using Pointers:
 
-    int a = 10;
-    changeA(&a);
-    cout<<a<<endl;
+    // int a = 10;
+    // changeA(&a);
+    // cout<<a<<endl;
 
 
 
-    // Pass by refrance using alias:
+    // // Pass by refrance using alias:
 
-    int b = 10;
-    changeB(b);
-    cout<<b<<endl;
+    // int b = 10;
+    // changeB(b);
+    // cout<<b<<endl;
+
+
+
+
+
+
+
+
+    // Array Pointer:
+
+    int arr[] = {1,2,3,4,5};
+    cout<<arr<<endl;             //pointer
+    cout<<&arr[0]<<endl;
+
+    cout<< *arr <<endl;          //value at arr[0] memmory address
 }
 
