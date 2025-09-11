@@ -2,8 +2,8 @@
 using namespace std;
 
 
-void changeA(int a){
-    a = 20;
+void changeA(int* ptr){       //pass by referance
+    *ptr = 20;
 }
 
 
@@ -72,7 +72,7 @@ int main(){
     // Pass By Referance using Pointers:
 
     int a = 10;
-    changeA(a);
+    changeA(&a);
     cout<<a<<endl;
 }
 
