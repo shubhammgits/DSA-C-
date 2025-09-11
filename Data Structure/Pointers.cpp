@@ -47,12 +47,22 @@ int main(){
 
 
 
-    int a = 5;
-    int* p = &a;
-    int** q = &p;
+    // int a = 5;
+    // int* p = &a;
+    // int** q = &p;
 
-    cout<<*p<<endl;
-    cout<<**q<<endl;
-    cout<<p<<endl;
-    cout<<*q<<endl;
+    // cout<<*p<<endl;
+    // cout<<**q<<endl;
+    // cout<<p<<endl;
+    // cout<<*q<<endl;
+
+
+
+    int a = 10;
+    changeA(a);
+    cout<<a<<endl;
+}
+
+void changeA(int a){
+    a = 20;
 }
