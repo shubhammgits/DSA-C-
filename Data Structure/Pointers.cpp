@@ -38,4 +38,21 @@ int main(){
     // cout<<ptr<<endl;
 
     // cout<<**(parPtr)<<endl;
+
+
+
+
+
+
+
+
+
+    int a = 5;
+    int* p = &a;
+    int** q = &p;
+
+    cout<<*p<<endl;
+    cout<<**q<<endl;
+    cout<<p<<endl;
+    cout<<*q<<endl;
 }
