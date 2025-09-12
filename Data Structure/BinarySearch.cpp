@@ -1,8 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int binarySearch(int arr[], int target){
-    int n = sizeof(arr)/sizeof(int);
+int binarySearch(int arr[], int n, int target){
     int start=0, end=n-1;
     
     int mid = (start+end)/2;
@@ -24,5 +23,7 @@ int binarySearch(int arr[], int target){
 
 int main(){
     int arr[] = {-1,0,3,5,7,9,11,13};
-    int target = 13;
+    int target = 0;
+    int n = 8;
+    cout<<binarySearch(arr,n, target);
 }
