@@ -1,30 +1,27 @@
 #include<iostream>
+#include<vector>
 using namespace std;
 
-int binarySearch(int arr[], int n, int target){
-    int start=0, end=n-1;
-    
-    
-    for(int i=start; i<end; i++){
-        int mid = (start+end)/2;
-        if(target > arr[mid]){
-        start = mid + 1;
+int binarySearch(vector<int> arr, int tar){
+    int st=0, end=arr.size() - 1;
+
+    while(st<=end){
+        int mid = (st+end)/2;
+
+        if(tar>mid) st=mid+1;
+
+        else if(tar<mid) end=mid-1;
+
+        else return mid;
     }
 
-    else if(target < arr[mid]){
-        end = mid-1;
-    }
-
-    else {
-        return mid;
-    }
-    }
+    return -1;
 }
 
 
 int main(){
     int arr[] = {-1,0,3,5,7,9,11,13};
-    int target = 0;
+    int target = 5;
     int n = 8;
     cout<<binarySearch(arr,n, target);
 }
