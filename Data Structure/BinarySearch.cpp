@@ -20,8 +20,7 @@ int binarySearch(vector<int> arr, int tar){
 
 
 int main(){
-    int arr[] = {-1,0,3,5,7,9,11,13};
+    vector<int> arr= {-1,0,3,5,7,9,11,13};
     int target = 5;
-    int n = 8;
-    cout<<binarySearch(arr,n, target);
+    cout<<binarySearch(arr, target);
 }
