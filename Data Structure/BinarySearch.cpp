@@ -4,8 +4,9 @@ using namespace std;
 int binarySearch(int arr[], int n, int target){
     int start=0, end=n-1;
     
-    int mid = (start+end)/2;
+    
     for(int i=start; i<end; i++){
+        int mid = (start+end)/2;
         if(target > arr[mid]){
         start = mid + 1;
     }
