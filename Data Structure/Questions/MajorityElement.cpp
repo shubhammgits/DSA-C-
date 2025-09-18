@@ -6,7 +6,6 @@ using namespace std;
 // Brute Force Approach:
 
 
-
 // int majorityElement(vector<int> nums){
 //     int n = nums.size();
 //     int freq = 0;
