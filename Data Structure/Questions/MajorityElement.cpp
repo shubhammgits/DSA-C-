@@ -54,4 +54,4 @@ using namespace std;
 
 // Moore's Algorithm:
 
-int majorityElemme
+// int majorityElemme
