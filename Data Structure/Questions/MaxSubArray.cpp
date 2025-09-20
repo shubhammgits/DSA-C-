@@ -6,7 +6,6 @@ using namespace std;
 
 
 
-
 // To print all the subarrays:
 
 
