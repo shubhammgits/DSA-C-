@@ -14,6 +14,8 @@ int main(){
         if(arr[i] < smallest) smallest = arr[i];
     }
 
+    
+
     cout<<"Smallest = "<<smallest<<endl;
     cout<<"Largest ="<<largest<<endl;
 }
