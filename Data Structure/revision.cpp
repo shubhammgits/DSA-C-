@@ -2,20 +2,12 @@
 using namespace std;
 
 int main(){
-    int arr[] = {5,-9,4,10,13,-10,5,4,3};
+    int arr[] = {4,3,6,2,8,5,1};
+    int tar = 2;
     int sz = sizeof(arr)/sizeof(int);
-
-    int smallest = INT8_MAX;
-    int largest = INT8_MIN;
-
     for(int i=0; i<sz; i++){
-        if(arr[i] > largest) largest = arr[i];
-
-        if(arr[i] < smallest) smallest = arr[i];
+        if(arr[i] == tar){
+            cout<<"Target found at "<<i<<" index!";
+        }
     }
-
-    
-
-    cout<<"Smallest = "<<smallest<<endl;
-    cout<<"Largest ="<<largest<<endl;
 }
