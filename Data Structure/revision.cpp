@@ -1,13 +1,22 @@
 #include<iostream>
 using namespace std;
 
-int main(){
-    int arr[] = {4,3,6,2,8,5,1};
-    int tar = 2;
-    int sz = sizeof(arr)/sizeof(int);
-    for(int i=0; i<sz; i++){
-        if(arr[i] == tar){
-            cout<<"Target found at "<<i<<" index!";
-        }
+void reverseArr(int arr[], int sz){
+    int start = 0, end = sz-1;
+    for(int i=start; i<end; i++){
+        swap(arr[start], arr[end]);
+        start++;
+        end--;
     }
+
+    for(int i=0; i<sz; i++){
+        cout<<arr[i]<<" ";
+    }
+}
+
+int main(){
+    int arr[]={1,2,3,4,5};
+    int sz=5;
+
+    reverseArr(arr,sz);
 }
