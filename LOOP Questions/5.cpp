@@ -1,11 +1,17 @@
-// Prime numer within a range
+// Perfect numbers between 1 and 500
 
 #include<iostream>
 using namespace std;
 
-void findPrime(int start, int end){
-
-    for(int i=start; i<=end; i++){
-        
+int main(){
+    int n = 10;
+    int factSum = 0;
+    for(int i=1; i<6; i++){
+        if(n%i ==0){
+            factSum += i;
+        }
     }
+
+    if(factSum == n) cout<<"Perfect Number!";
+    else cout<<"Not a perfect number!";
 }
