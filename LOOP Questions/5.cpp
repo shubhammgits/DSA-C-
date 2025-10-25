@@ -4,6 +4,11 @@
 using namespace std;
 
 void perfectNum(int num){
+
+    if(num<=1){
+        cout<<num<<" is not a Perfect Number!";
+        return;
+    }
     int factSum = 0;
     for(int i=1; i<num; i++){
         if(num%i == 0){
