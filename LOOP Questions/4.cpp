@@ -3,20 +3,23 @@
 #include<iostream>
 using namespace std;
 
-void isPrime(int n){
+void checkPrime(int num){
     bool isPrime = true;
-    for(int i=2; i*i<=n; i++){
-        if(n%i == 0){
+    for(int i=2; i*i<=num; i++){
+        if(num%i == 0){
             isPrime = false;
             break;
         }
     }
-    if(isPrime == true) cout<<"Prime Number!";
-    else cout<<"Not a prime number!";
+
+    if(isPrime == true) cout<<num<<" is a Prime Number!";
+    else cout<<num<<" is not a Prime Number!";
 }
 
 int main(){
-    isPrime(3);
-    isPrime(4);
-    isPrime(5);
+    checkPrime(3);
+    checkPrime(4);
+    checkPrime(5);
+    checkPrime(67);
+    checkPrime(6677);
 }
