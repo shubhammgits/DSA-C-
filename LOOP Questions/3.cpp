@@ -3,17 +3,19 @@
 #include<iostream>
 using namespace std;
 
-int naturalSum(int n){
+void sumOfN(int n){
     int sum = 0;
     for(int i=1; i<=n; i++){
-        cout<<i<<endl;
+        cout<<i<<" "<<endl;
         sum += i;
     }
-    cout<<"The sum of "<<n<<"terms :"<<sum;
+    cout<<"Sum of "<<n<<" natural numbers = "<<sum<<endl;
 }
 
 int main(){
-    naturalSum(10);
+    sumOfN(10);
 }
+
+
 
 
