@@ -3,7 +3,6 @@ using namespace std;
 
 int main(){
 
-
     //BASICS
 
     // int age = 25;
@@ -22,8 +21,6 @@ int main(){
 
 
 
-
- 
 
     //TYPE CONVERSION
     // Implicit Type Conversion
