@@ -8,5 +8,5 @@ int main(){
     for(int i=1; i<=10; i++){
         sum += i;
     }
-    cout<<"SUm of first 10 natural numbers : "<<sum;
+    cout<<"Sum of first 10 natural numbers : "<<sum;
 }
