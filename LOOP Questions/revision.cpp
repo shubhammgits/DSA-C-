@@ -4,7 +4,10 @@ using namespace std;
 void checkPrime(int num){
     bool isPrime = true;
     for(int i=2; i*i<=num; i++){
-        if(num%i == 0){
+        if(num < 2){
+        cout<<num<<" is not a Prime Number!"<<endl;
+    }
+        else if(num%i == 0){
             isPrime = false;
             break;
         }
