@@ -17,4 +17,5 @@ void checkPrime(int num){
 int main(){
     checkPrime(3);
     checkPrime(4);
+    checkPrime(7);
 }
