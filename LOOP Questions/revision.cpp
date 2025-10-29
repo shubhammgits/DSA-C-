@@ -3,11 +3,12 @@ using namespace std;
 
 void checkPrime(int num){
     bool isPrime = true;
-    for(int i=2; i*i<=num; i++){
-        if(num < 2){
-        cout<<num<<" is not a Prime Number!"<<endl;
+    if(num < 2){
+        cout<<num<<" is not a Prime Number!";
+        return;
     }
-        else if(num%i == 0){
+    for(int i=2; i*i<=num; i++){
+        if(num%i == 0){
             isPrime = false;
             break;
         }
