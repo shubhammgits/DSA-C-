@@ -13,6 +13,7 @@ void nTermsSum(int n){
     cout<<endl<<"Sum of the terms : "<<sum<<endl;
 }
 
+
 int main(){
     nTermsSum(10);
 }
