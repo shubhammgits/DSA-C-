@@ -1,33 +1,18 @@
-// Perfect Number or not:
+// Perfect Numbers between 1 to 500
 
-#include <iostream>
+#include<iostream>
 using namespace std;
 
-void checkPerfect(int num)
-{
-    if (num < 2)
-    {
-        cout << num << " is not a Perfect Number!" << endl;
-        return;
-    }
-
-    int factSum = 0;
-    for (int i = 1; i < num; i++)
-    {
-        if (num % i == 0)
-        {
-            factSum += i;
+int main(){
+    cout<<"Perfect Numbers between 1 and 500 : ";
+    for(int i=3; i<=500; i++){
+        int factSum = 0;
+        for(int j=1; i<i; j++){
+            if(i%j == 0){
+                factSum += j;
+            }
         }
-    }
-    if (factSum == num)
-        cout << num << " is a Perfect Number!" << endl;
-    else
-        cout << num << " is not a Perfect Number!" << endl;
-}
 
-int main()
-{
-    checkPerfect(6);
-    checkPerfect(56);
-    checkPerfect(496);
+        if(factSum == i) cout<<i<<" ";
+    }
 }
