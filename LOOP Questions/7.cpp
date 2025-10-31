@@ -1,11 +1,9 @@
-// Find prime number within a range
+// Find prime numbers within range
 
 #include<iostream>
 using namespace std;
 
-int main(){
-    int start = 1;
-    int end = 7;
+void primeInRange(int start, int end){
 
     for(int i=start; i<=end; i++){
 
@@ -13,12 +11,16 @@ int main(){
 
         bool isPrime = true;
         for(int j=2; j*j<=i; j++){
-            if(i%j == 0){
+            if(i%j==0){
                 isPrime = false;
                 break;
             }
         }
-
         if(isPrime == true) cout<<i<<" ";
+
     }
+}
+
+int main(){
+    primeInRange(1,100);
 }

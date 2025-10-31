@@ -1,17 +1,26 @@
-// Perfect Numbers between 1 to 500
+// Find prime numbers within range
 
 #include<iostream>
 using namespace std;
 
-int main(){
-    cout<<"Perfect Numbers between 1 and 500 : ";
-    for(int i=3; i<=5000; i++){
-        int factSum = 0;
-        for(int j=1; j<i; j++){
-            if(i%j == 0){
-                factSum += j;
+void primeInRange(int start, int end){
+
+    for(int i=start; i<=end; i++){
+
+        if(i<2) continue;
+
+        bool isPrime = true;
+        for(int j=2; j*j<=i; j++){
+            if(i%j==0){
+                isPrime = false;
+                break;
             }
         }
-        if(factSum == i) cout<<i<<" ";
+        if(isPrime == true) cout<<i<<" ";
+
     }
+}
+
+int main(){
+    primeInRange(1,100);
 }
