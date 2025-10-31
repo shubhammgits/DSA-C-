@@ -5,14 +5,13 @@ using namespace std;
 
 int main(){
     cout<<"Perfect Numbers between 1 and 500 : ";
-    for(int i=3; i<=500; i++){
+    for(int i=3; i<=5000; i++){
         int factSum = 0;
-        for(int j=1; i<i; j++){
+        for(int j=1; j<i; j++){
             if(i%j == 0){
                 factSum += j;
             }
         }
-
         if(factSum == i) cout<<i<<" ";
     }
 }
