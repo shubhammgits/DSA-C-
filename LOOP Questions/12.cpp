@@ -13,7 +13,7 @@ void linearSrch(int arr[], int sz, int target){
 
 int main(){
     int arr[] = {4,3,7,2,8,9,10};
-    int target = 7;
+    int target = 9;
     int sz = sizeof(arr)/sizeof(int);
 
     linearSrch(arr,sz,target);
