@@ -23,7 +23,6 @@ void uniqueElements(int arr[], int sz){
 
 
 
-
 int main(){
     int arr[] = {1,3,1,4,2};
     int sz = sizeof(arr)/sizeof(int);
