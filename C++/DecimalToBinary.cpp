@@ -1,8 +1,6 @@
 #include<iostream>
 using namespace std;
 
-
-
 int decToBinary(int decNum){
     int ans = 0, pow = 1;
 
