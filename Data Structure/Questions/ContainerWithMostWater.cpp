@@ -9,7 +9,6 @@ using namespace std;
 // Brute Force:
 
 
-
 // int maxWaterCont(vector<int> arr){
 //     int maxWater = 0;
 //     int n = arr.size();
