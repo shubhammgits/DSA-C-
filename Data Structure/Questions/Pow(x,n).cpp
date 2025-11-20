@@ -28,7 +28,6 @@ double myPow(double x, int n){
     return ans;
 }
 
-
 int main(){
     double x = 3;
     int n = 5;
