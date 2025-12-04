@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string>
 using namepsace std;
 
 class Solution {
