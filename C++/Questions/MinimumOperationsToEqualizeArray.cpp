@@ -1,6 +1,6 @@
 #include<iostream>
 #include<vector>
-using namepsace std;
+using namespace std;
 
 class Solution {
 public:
