@@ -1,26 +1,12 @@
-// Find prime numbers within range
-
 #include<iostream>
 using namespace std;
 
-void primeInRange(int start, int end){
+void perfect1to500(){
+    int sum = 1;
 
-    for(int i=start; i<=end; i++){
-
-        if(i<2) continue;
-
-        bool isPrime = true;
-        for(int j=2; j*j<=i; j++){
-            if(i%j==0){
-                isPrime = false;
-                break;
-            }
+    for(int i=1; i<500; i++){
+        if(i%i==0){
+            sum += i;
         }
-        if(isPrime == true) cout<<i<<" ";
-
     }
-}
-
-int main(){
-    primeInRange(1,100);
 }
