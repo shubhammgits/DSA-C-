@@ -3,27 +3,23 @@
 #include<iostream>
 using namespace std;
 
-void checkPrime(int num){
+void isPrime(int num){
     bool isPrime = true;
-    if(num < 2){
-        cout<<num<<" is not a Prime Number!"<<endl;
-        return;
+
+    if(num<=1){
+        isPrime = false;
     }
+    
     for(int i=2; i*i<=num; i++){
-        if(num%i == 0){
+        if(num%i == 0) {
             isPrime = false;
             break;
         }
-    }
-
-    if(isPrime == true) cout<<num<<" is a Prime Number!"<<endl;
-    else cout<<num<<" is not a Prime Number!"<<endl;
+   }
+    if(isPrime == true) cout<<num<<" is Prime!";
+    if(isPrime == false)cout<<num<<" is not Prime!";
 }
 
 int main(){
-    checkPrime(0);
-    checkPrime(1);
-    checkPrime(3);
-    checkPrime(4);
-    checkPrime(7);
+    isPrime(3);
 }

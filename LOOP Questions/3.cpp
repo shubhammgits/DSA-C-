@@ -3,20 +3,16 @@
 #include<iostream>
 using namespace std;
 
-void nTermsSum(int n){
+void displaySum(int n){
     int sum = 0;
-    cout<<"Terms : ";
+    cout<<"Natural Numbers : ";
     for(int i=1; i<=n; i++){
         cout<<i<<" ";
         sum += i;
     }
-    cout<<endl<<"Sum of the terms : "<<sum<<endl;
+    cout<<endl<<"Sum is : "<<sum;
 }
 
 int main(){
-    nTermsSum(10);
+    displaySum(10);
 }
-
-
-
-
