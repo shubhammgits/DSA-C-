@@ -28,6 +28,15 @@ int main(){
     char ch1 = 98;
     cout<<ch1<<endl;
 
-    char ch2 = 12345;
-    cout<<ch2<<endl;
+    // char ch2 = 12345;
+    // cout<<ch2<<endl;
+
+    int cgpa = (int) 9.12;
+    cout<<cgpa<<endl;
+
+    unsigned int num = 123;
+    cout<<num<<endl;
+
+    unsigned int negnum = -123;
+    cout<<negnum<<endl;
 }
